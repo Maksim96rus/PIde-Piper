@@ -1,0 +1,211 @@
+body{
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing:antialiased;
+        /*Для сглаживания текста*/
+    background-color: #fff;
+        /* цвет фона*/
+    
+}
+
+*,
+*:before,
+*:after
+
+*{
+    box-sizing: border-box;
+    /*Алгоритм подщета размера блока с учетом границ*/
+}
+
+header {
+    width: 100%;
+    height: 84px;
+    background-color:#007765 ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.container{
+    max-width:1219px;
+    margin: 0 auto;
+    padding: 0 55px 0 55px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 19px 0 0 0;
+}
+
+.img{
+    max-width: 100%;
+}
+.header__nav{
+    padding: 28px 0 0 0;
+}
+.nav__link, .header__nav span{
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color:#fff;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+/* INTRO */
+.intro{
+    min-height: 403px;
+    background: url(/img/PiperNet.png) 0 0 / cover no-repeat ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 84px;
+}
+.intro__title{
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* PROBLEM */
+.problem{
+    background-color: #EEEEEE;
+    min-height: 719px;
+}
+
+.problem__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding: 48px 0 16px 0;
+    margin: 0;
+}
+.problem__text p{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+/* NERO */
+.nero{
+    min-height: 483px;
+    background: url(/img/nero.png) 0 0 / cover no-repeat ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nero__text{
+    max-width: 893px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* PiedPiperCoin */
+.PiedPiperCoin{
+    min-height: 604px;
+    background-color: #fff;
+
+}
+.PiedPiperCoin__title{
+    margin: 48px 0 16px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+.PiedPiperCoin__logo{
+    float: left;
+    width: 115px;
+    height: 115px;
+    margin: 0 48px 35px 0;
+}
+.PiedPiperCoin__text p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+/* TEAM */
+.team{
+    min-height: 845px;
+    background-color: #EEEEEE;
+}
+.team__heading{
+    margin: 0;
+    padding: 58px 0 32px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+.team__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.team__item{
+    width: 33.33333%;
+    height: 283px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.team__photo{
+    margin: 21px 0 12px 0;
+}
+.team__name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #007765;
+}
+.team__prof{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    min-height: 176px;
+    background: #333333;
+}
+.footer__text{
+    width: 540px;
+    padding: 50px 0 0 0 ;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*anchor */
+#problem,
+#PiedPiperCoin,
+#theTeam {
+    border-top: 84px solid transparent;
+    margin-top: -84px;
+    background-clip: padding-box;
+} 
